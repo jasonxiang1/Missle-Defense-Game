@@ -1,0 +1,122 @@
+[
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -g -Wall -std=c++11 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\missiledefense.dir\\src\\startup.cpp.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\src\\startup.cpp\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/src/startup.cpp"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -g -Wall -std=c++11 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\missiledefense.dir\\src\\Game.cpp.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\src\\Game.cpp\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/src/Game.cpp"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\missiledefense.dir\\src\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\src\\glad.c\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/src/glad.c"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -g -Wall -std=c++11 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\missiledefense.dir\\src\\gl_frontend.cpp.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\src\\gl_frontend.cpp\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/src/gl_frontend.cpp"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -g -Wall -std=c++11 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\missiledefense.dir\\src\\glutils.cpp.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\src\\glutils.cpp\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/src/glutils.cpp"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -g -Wall -std=c++11 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\missiledefense.dir\\src\\GLMesh.cpp.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\src\\GLMesh.cpp\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/src/GLMesh.cpp"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -g -Wall -std=c++11 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\missiledefense.dir\\src\\Controller.cpp.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\src\\Controller.cpp\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/src/Controller.cpp"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -g -Wall -std=c++11 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\glfw_test.dir\\src\\glfw_test.cpp.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\src\\glfw_test.cpp\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/src/glfw_test.cpp"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\glfw_test.dir\\src\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\src\\glad.c\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/src/glad.c"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include -I..\\..\\..\\ThirdParty\\glfw\\src -IThirdParty\\glfw\\src /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoThirdParty\\glfw\\src\\CMakeFiles\\glfw.dir\\context.c.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\ThirdParty\\glfw\\src\\context.c\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/src/context.c"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include -I..\\..\\..\\ThirdParty\\glfw\\src -IThirdParty\\glfw\\src /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoThirdParty\\glfw\\src\\CMakeFiles\\glfw.dir\\init.c.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\ThirdParty\\glfw\\src\\init.c\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/src/init.c"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include -I..\\..\\..\\ThirdParty\\glfw\\src -IThirdParty\\glfw\\src /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoThirdParty\\glfw\\src\\CMakeFiles\\glfw.dir\\input.c.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\ThirdParty\\glfw\\src\\input.c\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/src/input.c"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include -I..\\..\\..\\ThirdParty\\glfw\\src -IThirdParty\\glfw\\src /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoThirdParty\\glfw\\src\\CMakeFiles\\glfw.dir\\monitor.c.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\ThirdParty\\glfw\\src\\monitor.c\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/src/monitor.c"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include -I..\\..\\..\\ThirdParty\\glfw\\src -IThirdParty\\glfw\\src /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoThirdParty\\glfw\\src\\CMakeFiles\\glfw.dir\\vulkan.c.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\ThirdParty\\glfw\\src\\vulkan.c\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/src/vulkan.c"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include -I..\\..\\..\\ThirdParty\\glfw\\src -IThirdParty\\glfw\\src /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoThirdParty\\glfw\\src\\CMakeFiles\\glfw.dir\\window.c.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\ThirdParty\\glfw\\src\\window.c\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/src/window.c"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include -I..\\..\\..\\ThirdParty\\glfw\\src -IThirdParty\\glfw\\src /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoThirdParty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_init.c.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\ThirdParty\\glfw\\src\\win32_init.c\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/src/win32_init.c"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include -I..\\..\\..\\ThirdParty\\glfw\\src -IThirdParty\\glfw\\src /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoThirdParty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_joystick.c.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\ThirdParty\\glfw\\src\\win32_joystick.c\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/src/win32_joystick.c"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include -I..\\..\\..\\ThirdParty\\glfw\\src -IThirdParty\\glfw\\src /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoThirdParty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_monitor.c.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\ThirdParty\\glfw\\src\\win32_monitor.c\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/src/win32_monitor.c"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include -I..\\..\\..\\ThirdParty\\glfw\\src -IThirdParty\\glfw\\src /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoThirdParty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_time.c.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\ThirdParty\\glfw\\src\\win32_time.c\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/src/win32_time.c"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include -I..\\..\\..\\ThirdParty\\glfw\\src -IThirdParty\\glfw\\src /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoThirdParty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_thread.c.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\ThirdParty\\glfw\\src\\win32_thread.c\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/src/win32_thread.c"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include -I..\\..\\..\\ThirdParty\\glfw\\src -IThirdParty\\glfw\\src /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoThirdParty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_window.c.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\ThirdParty\\glfw\\src\\win32_window.c\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/src/win32_window.c"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include -I..\\..\\..\\ThirdParty\\glfw\\src -IThirdParty\\glfw\\src /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoThirdParty\\glfw\\src\\CMakeFiles\\glfw.dir\\wgl_context.c.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\ThirdParty\\glfw\\src\\wgl_context.c\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/src/wgl_context.c"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include -I..\\..\\..\\ThirdParty\\glfw\\src -IThirdParty\\glfw\\src /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoThirdParty\\glfw\\src\\CMakeFiles\\glfw.dir\\egl_context.c.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\ThirdParty\\glfw\\src\\egl_context.c\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/src/egl_context.c"
+},
+{
+  "directory": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/out/build/x64-Debug (default)",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.293\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\..\\..\\include -I..\\..\\..\\ThirdParty\\glfw\\include -I..\\..\\..\\ThirdParty\\glfw\\src -IThirdParty\\glfw\\src /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoThirdParty\\glfw\\src\\CMakeFiles\\glfw.dir\\osmesa_context.c.obj /FdTARGET_COMPILE_PDB /FS -c \"C:\\Users\\jason\\Box\\Class Files\\Spring 2021\\16681 - MRSD Project I\\HW\\Task 5 - Programming Familiarization\\Programming Familiarization Part 1\\Folders\\ThirdParty\\glfw\\src\\osmesa_context.c\"",
+  "file": "C:/Users/jason/Box/Class Files/Spring 2021/16681 - MRSD Project I/HW/Task 5 - Programming Familiarization/Programming Familiarization Part 1/Folders/ThirdParty/glfw/src/osmesa_context.c"
+}
+]
