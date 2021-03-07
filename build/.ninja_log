@@ -1,0 +1,26 @@
+# ninja log v5
+4	198	1615144173561644796	CMakeFiles/missiledefense.dir/src/GLMesh.cpp.o	b021f1d1330104e2
+3	491	1615144173857645817	CMakeFiles/missiledefense.dir/src/glad.c.o	1607245b16ce0b11
+491	969	1615144174333647458	ThirdParty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o	cc5a1edbc2f4f3a9
+4	1046	1615144174409647721	CMakeFiles/missiledefense.dir/src/glutils.cpp.o	6b8837561abcc27d
+17	1050	1615144174413647734	ThirdParty/glfw/src/CMakeFiles/glfw.dir/init.c.o	b147b9c48b884dcb
+6	1053	1615144174417647748	ThirdParty/glfw/src/CMakeFiles/glfw.dir/context.c.o	aaea97c02dbbe8a8
+199	1181	1615144174545648189	ThirdParty/glfw/src/CMakeFiles/glfw.dir/monitor.c.o	413b9f07ba0b9c22
+969	1333	1615144174697648713	ThirdParty/glfw/src/CMakeFiles/glfw.dir/window.c.o	411c7c344499b81a
+1050	1379	1615144174745648878	ThirdParty/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o	ee5196078b6468ce
+1046	1394	1615144174757648920	ThirdParty/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o	ebd4d4f08e8a6d2b
+1181	1562	1615144174925649499	ThirdParty/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o	159a0f06a63fceb7
+1333	1631	1615144174993649734	ThirdParty/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o	79b0000777e2fc6e
+21	1638	1615144174997649747	ThirdParty/glfw/src/CMakeFiles/glfw.dir/input.c.o	aa5ea00b29671240
+1379	1668	1615144175033649871	ThirdParty/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o	98d5d3ac321e46fd
+6	1702	1615144175065649981	CMakeFiles/missiledefense.dir/src/Controller.cpp.o	7bb110fc62164b14
+0	1745	1615144175109650133	CMakeFiles/missiledefense.dir/src/Game.cpp.o	f8479c6d52c0b1db
+1395	1823	1615144175189650409	ThirdParty/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o	24f2acd6ca989365
+1562	2076	1615144175441651276	ThirdParty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o	b57b7063eac331d9
+1053	2117	1615144175481651415	ThirdParty/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o	2062cf72fcb7a19b
+1631	2146	1615144175477651400	ThirdParty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o	5d11e6a44e2cdba6
+1638	2175	1615144175541651621	ThirdParty/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o	a747642a3b2bd615
+2175	2679	1615144176025653288	ThirdParty/glfw/src/libglfw3.a	9a1a21eadf4958f6
+0	2879	1615144176245654045	CMakeFiles/missiledefense.dir/src/startup.cpp.o	2ec2c7f20d871eec
+3	3062	1615144176425654665	CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.o	b5c678d68b0c6ff8
+3062	3266	1615144176629655367	missiledefense	c41e5e6f399fce75

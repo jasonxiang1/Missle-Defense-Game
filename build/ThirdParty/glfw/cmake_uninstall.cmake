@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/home/fxx/coding_example/Folders/build/ThirdParty/glfw/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/home/fxx/coding_example/Folders/build/ThirdParty/glfw/install_manifest.txt\"")
+if (NOT EXISTS "/home/fxx/github_projects/Missle-Defense-Game/build/ThirdParty/glfw/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/home/fxx/github_projects/Missle-Defense-Game/build/ThirdParty/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "/home/fxx/coding_example/Folders/build/ThirdParty/glfw/install_manifest.txt" files)
+file(READ "/home/fxx/github_projects/Missle-Defense-Game/build/ThirdParty/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

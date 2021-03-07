@@ -1,4 +1,4 @@
-# Install script for directory: /home/fxx/coding_example/Folders
+# Install script for directory: /home/fxx/github_projects/Missle-Defense-Game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/fxx/coding_example/Folders/build/ThirdParty/glfw/cmake_install.cmake")
+  include("/home/fxx/github_projects/Missle-Defense-Game/build/ThirdParty/glfw/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/fxx/coding_example/Folders/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/fxx/github_projects/Missle-Defense-Game/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
