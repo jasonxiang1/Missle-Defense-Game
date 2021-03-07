@@ -2,6 +2,7 @@
 #include <cmath>
 #include <iostream>
 #include <algorithm>
+#include <vector>
 
 #include <stdlib.h>
 
@@ -14,14 +15,21 @@ namespace mrsd
 	//declare global variables
 	Prediction pred;
 	std::vector<Prediction> predVect;
-	const int increVal = 10;
+	// const int g.explosionSize = 5;
 
 	//declare bin number vector
 	int numBins;
 	std::vector<int> BinVect; //0 means safe, 1 means danger
+	float binInterval = 2.5;
 	
 	int currBin;
 	int newBin;
+	int minRad = 5;
+	int safetyRad = 4;
+	bool teleportationCheat = false;
+	static int dirMem = 2; //0 for left,1 for right, 2 for none
+	static bool dirConfirm = false;
+
 
 	void Controller::control(const mrsd::Game& g, float t)
 	{
@@ -32,12 +40,18 @@ namespace mrsd
 			//float time = g.getGameTime();
 
 			//compute length of vector
-			numBins = (int) (g.getWidth() / increVal) + 1;
+			numBins = (int) (g.getWidth() / binInterval) + 1;
 
 			for (int i = 0; i < numBins; i++) {
-				BinVect.push_back(0);
-			}
+				if (i <= minRad || i >= (numBins-minRad))
+				{
+					BinVect.push_back(1);
+				}else
+				{
+					BinVect.push_back(0);
+				}
 
+			}
 
 			for (std::list<Projectile>::const_iterator it = g.getProjectiles().begin();
 			it != g.getProjectiles().end(); ++it) {
@@ -74,16 +88,82 @@ namespace mrsd
 			determineSafeSpots(g);
 
 			//compute the current bin the player is at
-			currBin = (int)p->x / increVal;
+			currBin = (int)p->x / binInterval;
 
-			if (BinVect[currBin] == 1)
+
+			if (teleportationCheat)
 			{
-				newBin = pickSafeSpot(g);
+				if (BinVect[currBin] == 1)
+					{
+						newBin = pickSafeSpot(g);
+						//convert bin to floating point
+						p->x = (float) (newBin * binInterval) + binInterval/2.0;
+					}
+			}else
+			{
+				if (BinVect[currBin] == 1)
+					{
+						if (!dirConfirm)
+						{
+							dirMem = pickSafeSpot(g);
+							dirConfirm = true;
+						}
 
-				//convert bin to floating point
-				p->x = (float) (newBin * increVal) + increVal/2.0;
+						if (dirMem == 0) //move left
+						{
 
+							p->x = p->x - g.playerSpeed;
+
+
+						}
+						else if(dirMem == 1) //move right
+						{
+
+							p->x = p->x + g.playerSpeed;
+
+						}
+					}
+				else if (BinVect[currBin] == 0)
+				{
+					dirMem = 2;
+					dirConfirm = false;
+
+				}
 			}
+
+
+
+			// if(currBin < safetyRad)
+			// {
+			// 	if (BinVect[currBin] == 1 && BinVect[currBin+safetyRad] == 1)
+			// 	{
+			// 		newBin = pickSafeSpot(g);
+			// 		//convert bin to floating point
+			// 		p->x = (float) (newBin * g.explosionSize) + g.explosionSize/2.0;
+			// 	}
+
+			// }
+			// else if(currBin > (numBins-safetyRad))
+			// {
+			// 	if (BinVect[currBin] == 1 && BinVect[currBin-safetyRad] == 1)
+			// 	{
+			// 		newBin = pickSafeSpot(g);
+			// 		//convert bin to floating point
+			// 		p->x = (float) (newBin * g.explosionSize) + g.explosionSize/2.0;
+			// 	}
+				
+			// }
+			// else //if you are somewhere in the middle of the map
+			// {
+			// 	if (BinVect[currBin] == 1 || BinVect[currBin-safetyRad] == 1 || BinVect[currBin+safetyRad] == 1)
+			// 	{
+			// 		newBin = pickSafeSpot(g);
+			// 		//convert bin to floating point
+			// 		p->x = (float) (newBin * g.explosionSize) + g.explosionSize/2.0;
+			// 	}
+
+			// }
+
 			predVect.clear();
 			BinVect.clear();
 			
@@ -119,12 +199,13 @@ namespace mrsd
 		
 		//float test = (2.0 * grav * p.y);
 		velFinal = sqrt((p.vy * p.vy) + (2.0 * grav * -p.y)); //based on v^2 = v_o^2 + 2a(delX)
-		delTime = (-(velFinal)-p.vy) / grav; //based on v = v_o + at
+		delTime = (-(velFinal)+fabs(p.vy)) / grav; //based on v = v_o + at
 
 		if (p.vy > 0)
 		{
 			//account for the time it takes to got to the air
-			delTime = delTime + 2 * (p.vy/abs(grav)); //include the time it takes to convert the position y vel to negative
+			//based on the 
+			delTime = delTime + 2 * (p.vy/fabs(grav)); //include the time it takes to convert the position y vel to negative
 		}
 		
 		//compute landing location
@@ -137,10 +218,19 @@ namespace mrsd
 		return pred;
 	}
 
+	//create helper function to set a range of numbers to one
+	void dangerSetter(int increBinLower, int increBinUpper)
+	{
+		for (int i = increBinLower; i <= increBinUpper; i++)
+		{
+			BinVect[i] = 1;
+		}
+	}
+
 	void Controller::determineSafeSpots(const Game& g)
 	{
 
-		float timeThres = 1.5;
+		float timeThres = 25; //determine minimum time to start considering the projectiles
 		int increBin;
 
 
@@ -153,18 +243,18 @@ namespace mrsd
 				//if the projectile's time is less than 0.3, then compute the bin number and push back to vector
 				if (it->t < timeThres && it->x < g.getWidth() && it->x > 0) {
 
-					increBin = (int)(it->x / increVal);
-					BinVect[increBin] = 1;
+					increBin = (int)(it->x / binInterval);
+					dangerSetter(increBin-safetyRad,increBin+safetyRad);
 
 
 				}
 				else if (it->t < timeThres && it->x > g.getWidth())
 				{
-					BinVect.back() = 1;
+					dangerSetter(BinVect.size()-1-safetyRad,BinVect.size()-1);
 				}
 				else if (it->t < timeThres && it->x < 0)
 				{
-					BinVect[0] = 1;
+					dangerSetter(0,safetyRad);
 				}
 			}
 
@@ -176,8 +266,17 @@ namespace mrsd
 				if (it->x < g.getWidth() && it->x > 0)
 				{
 					//compute the explosion and push back to vector
-					increBin = (int)(it->x / increVal);
-					BinVect[increBin] = 1;
+					increBin = (int)(it->x / binInterval);
+					dangerSetter(increBin-safetyRad,increBin+safetyRad);
+				}
+				else if (it->x >= g.getWidth())
+				{
+					dangerSetter(BinVect.size()-1-safetyRad,BinVect.size()-1);
+				}
+				else if (it->x <= 0)
+				{
+					dangerSetter(0,safetyRad);
+
 				}
 
 
@@ -191,11 +290,39 @@ namespace mrsd
 	int Controller::pickSafeSpot(const Game& g)
 	{
 
-		std::vector<int>::iterator it;
-		
-		it = std::find(BinVect.begin(), BinVect.end(), 0);
+		if(teleportationCheat)
+		{
+			std::vector<int>::iterator it;
+			it = std::find(BinVect.begin(), BinVect.end(), 0);
+			return std::distance(BinVect.begin(),it);
+		}else
+		{
+			// int confRange = 4;
+			//pick a direction that you want to go based on player speed
+			//check left and right size for number of zeros
+			int countLeft = std::count(BinVect.begin(),BinVect.begin()+currBin,0);
+			int countRight = std::count(BinVect.begin()+currBin,BinVect.end(),0);
+			if (countLeft > countRight) //if there is more zeros on the left side
+			{
+
+				return 0;
+
+			}
+			else if(countRight > countLeft) //if there is more zeros on the right size
+			{
 
 
-		return std::distance(BinVect.begin(),it);
+				return 1;
+
+			}
+			else
+			{
+				return std::rand()%2;
+			}
+
+
+		}
+
+
 	}
 }
