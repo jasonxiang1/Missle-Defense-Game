@@ -22,6 +22,8 @@ If running on VS Code, make sure to configure the CMake build version to GCC 5.5
 
 The AI controller to the program is derived from the functions created in theController.cppfile.Within theController.cppfile, thecontrolfunction serves as the main brains of the operation.  The overallflow of the AI system is as shown below.  The AI first predicts the landing locations of allprojectiles in the air, determines the danger zones on the map and if the player is standing on a danger zone,if so then the AI will determine a safe direction to move and move until the it reaches the safe part of themap.
 
+![system overview](img/img01.png)
+
 Once a player is generated, a sectioned out map of the game is created based on a pre-specified bin intervalvalue. In this program, the default bin interval parameter is set to 2.5. The first step for the AI is to determinewhere all the projectiles are going to land on the map.
 
 In thetrackProjectiles function, the projectile information is pulled from the game class inputg. The func-tion uses common kinematics equations to determine the time of impact and the landing location of theprojectiles. The following kinematics equations are used:
@@ -58,7 +60,7 @@ The main challenges apparent in this task were:
 
 In the hard difficulty mode, the AI can last for an average for 5-15 seconds. The main challengewith the increased difficulty is the higher likelihood of overlapping and consecutive explosion occurring.The AI focusing on the explosion closest to the player, namely the explosion directly overhead, and adjustsits position appropriately to avoid it. In many cases in the harder difficulty, the player may be able to moveaway from the explosion directly overhead, but the player ends up walk right into an explosion that justoccurred right after.
 
-## Reflections and Thoughts on Assignment
+## Question 04: Reflections and Thoughts on Assignment
 
 For giving students hands-on experience developing C++, this assignment is able to meet its goal.Working on this assignment solidified several C++ concepts such as vectors, pointers, references, classes,and variable  types (static,  global,  local,  etc...).   This  assignment requires  the student  to apply  a healthydiversity of concepts to get a working AI model for the player.
 
